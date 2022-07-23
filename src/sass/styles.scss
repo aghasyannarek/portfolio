@@ -2,6 +2,7 @@
 @import "nav";
 @import "header";
 @import "../sass/main.scss";
+@import "../sass/footer.scss";
 
 
 // global
@@ -13,7 +14,7 @@ body{
     z-index: 1;
 
     &::-webkit-scrollbar{
-        width: 7px;
+        width: 10px;
         height: 7px;
         overflow: hidden;
     }
