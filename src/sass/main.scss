@@ -1,0 +1,35 @@
+main{
+    height: 100vh;
+    background-image: url(../img/pexels-mnm-zameer-3308588.jpg);
+    background-position: center;
+    background-size: cover;
+    .first_site{
+        display: flex;
+        .img_block{
+           img{
+            width: 400px;
+            height: 220px;
+            margin-top: 70px;
+            border-radius: 10px;
+           }
+        }
+        .description{
+            h1{
+                font-size: 40px;
+                font-weight: 700;
+                color: rgb(255, 102, 0);
+                padding-top: 80px;
+                padding-left: 50px;
+                letter-spacing: 3px;
+            }
+            p{
+                font-size: 30px;
+                font-weight: 700;
+                color: rgb(228, 188, 161);
+                letter-spacing: 3px;
+                padding-left: 50px;
+            }
+        }
+       
+    }
+}
