@@ -61,6 +61,7 @@
 	    left: 0;
         scroll-behavior: smooth;
         .logo{
+            z-index: 9999999;
             a{
                 text-decoration: none;
                 cursor: pointer;
